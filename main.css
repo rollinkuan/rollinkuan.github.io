@@ -1,0 +1,97 @@
+.ntua_header {
+  display: flex;
+  background-color: #474747;
+}
+.ntua_header ul {
+  display: flex;
+}
+.ntua_header ul li {
+  display: inline-block;
+}
+.ntua_header ul li a {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+}
+.ntua_header .icons {
+  width: calc(100% - 335.63px);
+  text-align: right;
+  display: inline-block;
+}
+.ntua_header .icons li {
+  background-color: #f9f9f752;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 15px;
+}
+.ntua_nav {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.ntua_nav a {
+  display: flex;
+}
+.ntua_nav ul {
+  width: calc(100% - 390px);
+  text-align: right;
+  display: inline-block;
+}
+.ntua_nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+.ntua_nav ul li:hover {
+  background-color: #cacaca;
+  border-radius: 30px;
+}
+.ntua_nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #2c2f24;
+}
+.ntua_nav .button {
+  width: calc(100% - 50px);
+  text-align: right;
+}
+.ntua_nav button {
+  background-color: #ffffff;
+  width: 112px;
+  height: 48px;
+  padding: 10px;
+  border-radius: 118px;
+}
+.ntua_body {
+  font-family: Microsoft JhengHei;
+}
+.ntua_body h1 {
+  text-align: center;
+  padding: 50px;
+  font-size: 100px;
+}
+.ntua_body p {
+  text-align: center;
+  padding: 50px;
+  font-size: 25 px;
+}
+.ntua_body .button1 {
+  text-align: center;
+}
+.ntua_body button {
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 112px;
+  height: 48px;
+
+  border-radius: 50px;
+}
+
+.ntua_body button:hover {
+  border: 0px;
+  color: #ffffff;
+  background-color: #ad343e;
+}
