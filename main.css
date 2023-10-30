@@ -2,48 +2,56 @@
   display: flex;
   background-color: #474747;
 }
-.ntua_header ul {
+
+.ntua_header .phone {
+  padding-left: 110px;
   display: flex;
+  color: #ffffff;
+  text-decoration: none;
 }
-.ntua_header ul li {
-  display: inline-block;
+.ntua_header .mail {
+  padding-left: 50px;
+  display: flex;
+  color: #ffffff;
+  text-decoration: none;
 }
-.ntua_header ul li a {
+.ntua_header ul .phone a {
   display: inline-block;
   color: #ffffff;
   text-decoration: none;
   padding: 10px;
 }
 .ntua_header .icons {
-  width: calc(100% - 335.63px);
+  width: 1140px;
   text-align: right;
-  display: inline-block;
+  display: flex;
+  justify-content: right;
 }
-.ntua_header .icons li {
-  background-color: #f9f9f752;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  border-radius: 15px;
-}
+
 .ntua_nav {
+  height: 80px;
+  width: 100%;
   display: flex;
   align-items: center;
   padding: 20px;
 }
 .ntua_nav a {
+  padding-left: 90px;
   display: flex;
 }
-.ntua_nav ul {
-  width: calc(100% - 390px);
-  text-align: right;
+.ntua_nav .menu {
+  display: inline-block;
+  margin-left: 100px;
+  vertical-align: middle;
+}
+.ntua_nav .menu li {
   display: inline-block;
 }
-.ntua_nav ul li {
-  display: inline-block;
-  padding: 20px;
+.ntua_nav .menu li a {
+  padding: 15px;
+  margin: 5px;
 }
-.ntua_nav ul li:hover {
+.ntua_nav .menu li:hover {
   background-color: #cacaca;
   border-radius: 30px;
 }
@@ -53,7 +61,7 @@
   color: #2c2f24;
 }
 .ntua_nav .button {
-  width: calc(100% - 50px);
+  width: calc(100% - 1200px);
   text-align: right;
 }
 .ntua_nav button {
@@ -64,6 +72,13 @@
   border-radius: 118px;
 }
 .ntua_body {
+  background-image: url(./img/image\ 110.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 250px;
+  right: 0px;
+  left: 0px;
   font-family: Microsoft JhengHei;
 }
 .ntua_body h1 {
@@ -80,6 +95,7 @@
   text-align: center;
 }
 .ntua_body button {
+  margin: 10px;
   text-align: center;
   display: inline-block;
   justify-content: center;
